@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Darker+Grotesque:wght@300;400&family=Homemade+Apple&family=Pangolin&family=Quicksand&family=Source+Sans+Pro:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css"/>
+    <title>Contact Easter Grace Perdido</title>
+<style>
+    input[type=text], select {
+        font-family: 'Quicksand', sans-serif;
+        width: 70%;
+        margin: 10px 0; 
+        display: inline-block;
+        box-sizing: border-box;
+    }
+    input[type=email], select {
+        font-family: 'Quicksand', sans-serif;
+        width: 70%;
+        margin: 10px 0; 
+        box-sizing: border-box;
+    }
+    input[type=message], select {
+        font-family: 'Quicksand', sans-serif;
+        width: 70%;
+        padding: 15px 20 px;
+        margin: 10px 0; 
+        display: inline-block;
+        box-sizing: border-box;
+    }
+    input[type=submit] {
+        font-family: 'Quicksand', sans-serif;
+        font-size: 0.9em;
+        width: 72%;
+        background-color: #274c43;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        cursor: pointer;
+    }
+</style>
+</head>
+
+<body>
+<div class="contacttop">
+    <h1>Contact Easter Grace Perdido</h1>
+    <p>555 Melody Lane<br>
+    Athens, GA 30606</p>
+    <p>(229)-417-3016</p>
+<hr>
+<div class="card">
+    <form action="mailto:epp35355@uga.edu" method="post">
+        <div>
+         <label>Name</label><br>
+         <input type="text">
+        </div>
+
+        <div>
+         <label> Email</label><br>
+         <input type="email">
+        </div>
+
+        <div>
+         <label for="message">Message</label><br>
+         <textarea id="message" class="textarea" name="message" rows="5" >Enter your message here...</textarea><br>
+         <input type="submit">
+        </div>
+    </form>
+</div>
+</div>
+</body>
+</html>
